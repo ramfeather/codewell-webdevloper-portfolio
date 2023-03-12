@@ -70,3 +70,11 @@ body {
   display: flex;
   justify-content: space-between;
 }
+
+.social-icons-area ul {
+  display: flex;
+}
+
+.social-icons-area ul li {
+  margin-left: 16px;
+}
