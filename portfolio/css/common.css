@@ -26,3 +26,11 @@ body {
   background-color: #000000;
   padding: 0 80px;
 }
+
+.navigation {
+  height: 110px;
+}
+
+.navigation-inner {
+  display: flex;
+}
