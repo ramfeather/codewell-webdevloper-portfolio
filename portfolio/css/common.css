@@ -27,13 +27,14 @@ body {
   padding: 0 160px;
 }
 
-.navigation {
-  height: 110px;
-}
-
 .navigation-inner {
+  height: 110px;
+  max-width: 1200px;
   display: flex;
   justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 40px;
 }
 
 .toggle-menu-button {
