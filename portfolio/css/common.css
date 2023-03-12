@@ -41,3 +41,7 @@ body {
 .toggle-menu-button {
   display: none;
 }
+
+.site-menu ul {
+  display: flex;
+}
