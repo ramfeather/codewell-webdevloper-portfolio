@@ -68,4 +68,5 @@ body {
   max-width: 1200px;
   height: 110px;
   display: flex;
+  justify-content: space-between;
 }
