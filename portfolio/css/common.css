@@ -45,3 +45,8 @@ body {
 .site-menu ul {
   display: flex;
 }
+
+.site-menu ul li {
+  margin-left: 32px;
+  margin-right: 16px;
+}
