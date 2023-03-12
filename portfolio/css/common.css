@@ -64,11 +64,16 @@ body {
   font-weight: bold;
 }
 
+.footer {
+  background-color: #343b42;
+}
+
 .footer-inner {
   max-width: 1200px;
   height: 110px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .social-icons-area ul {
