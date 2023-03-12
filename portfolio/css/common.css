@@ -24,7 +24,7 @@ body {
   color: #ffffff;
   line-height: 1;
   background-color: #000000;
-  padding: 0 80px;
+  padding: 0 160px;
 }
 
 .navigation {
@@ -33,4 +33,9 @@ body {
 
 .navigation-inner {
   display: flex;
+  justify-content: space-between;
+}
+
+.toggle-menu-button {
+  display: none;
 }
