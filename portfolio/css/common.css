@@ -71,6 +71,7 @@ body {
 .footer {
   background-color: #2f363c;
   padding: 0 160px;
+  margin-top: 32px;
 }
 
 .footer-inner {
