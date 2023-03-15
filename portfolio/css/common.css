@@ -26,9 +26,8 @@ body {
   background-color: #000000;
 }
 
-.developer-name {
-  font-family: "Bodoni Moda", serif;
-  color: #ffffff;
+.navigation {
+  padding: 0 160px;
 }
 
 .navigation-inner {
@@ -71,6 +70,7 @@ body {
 
 .footer {
   background-color: #2f363c;
+  padding: 0 160px;
 }
 
 .footer-inner {
@@ -89,4 +89,18 @@ body {
 
 .social-icons-area ul li {
   margin-left: 16px;
+}
+
+.developer-name {
+  font-family: "Bodoni Moda", serif;
+  color: #ffffff;
+}
+
+.contents {
+  padding: 0 160px;
+}
+
+.hero-message {
+  width: 100%;
+  max-width: 1200px;
 }
