@@ -120,3 +120,17 @@ body {
   font-size: calc((14 / 16) * 1rem);
   width: 46%;
 }
+
+.sponsors {
+  margin-top: 64px;
+}
+
+.sponsors-icons-area ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sponsors-icons-area ul li img,
+svg {
+  width: 80%;
+}
