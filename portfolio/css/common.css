@@ -65,8 +65,8 @@ body {
 .link-button {
   background-color: #ffee55;
   display: inline-block;
-  width: 176px;
-  line-height: 56px;
+  width: 152px;
+  line-height: 3.4;
   color: #000000;
   font-weight: bold;
 }
@@ -110,7 +110,7 @@ body {
 
 .hero-message h1 {
   width: 64%;
-  line-height: 72px;
+  line-height: 1.2;
   font-size: 3.8rem;
   color: #ffffff;
   font-weight: normal;
