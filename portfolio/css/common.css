@@ -124,6 +124,7 @@ body {
 
 .sponsors {
   margin-top: 64px;
+  min-width: 500px;
 }
 
 .sponsors-icons-area ul {
