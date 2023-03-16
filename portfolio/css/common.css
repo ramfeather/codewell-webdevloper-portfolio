@@ -149,6 +149,11 @@ svg {
 
 .works-list li img {
   width: 100%;
+  transition-duration: 0.2s;
+}
+
+.works-list li img:hover {
+  transform: scale(1.05);
 }
 
 .works-list li h2 {
