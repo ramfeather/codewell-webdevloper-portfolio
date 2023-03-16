@@ -144,9 +144,17 @@ svg {
   color: #ffffff;
   font-weight: normal;
   font-size: 2.4rem;
+  margin-top: 22px;
 }
+
 .works-list li h2::after {
   content: "→";
   font-size: 2rem;
   margin-left: 12px;
+}
+
+.works-list li p {
+  margin-top: 16px;
+  font-size: calc((14 / 16) * 1rem);
+  line-height: 24px;
 }
