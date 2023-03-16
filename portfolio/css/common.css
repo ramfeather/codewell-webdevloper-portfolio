@@ -141,14 +141,14 @@ svg {
 }
 
 .works-list img {
-  width: 50%;
-  max-width: 500px;
+  width: 46%;
+  /* max-width: 500px; */
 }
 
 .works-list li h2 {
   color: #ffffff;
   font-weight: normal;
-  font-size: 2.4rem;
+  font-size: 2.5rem;
   margin-top: 22px;
 }
 
