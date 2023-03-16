@@ -109,17 +109,17 @@ body {
 }
 
 .hero-message h1 {
-  width: 56%;
-  line-height: 64px;
-  font-size: 3rem;
+  width: 64%;
+  line-height: 72px;
+  font-size: 3.8rem;
   color: #ffffff;
   font-weight: normal;
 }
 
 .hero-message p {
-  line-height: 24px;
-  font-size: calc((14 / 16) * 1rem);
-  width: 46%;
+  line-height: 1.6;
+  font-size: 1.13rem;
+  width: 58%;
 }
 
 .sponsors {
@@ -133,11 +133,16 @@ body {
 
 .sponsors-icons-area ul li img,
 svg {
-  width: 80%;
+  width: 100%;
 }
 
 .works {
   margin-top: 64px;
+}
+
+.works-list img {
+  width: 50%;
+  max-width: 500px;
 }
 
 .works-list li h2 {
@@ -155,6 +160,6 @@ svg {
 
 .works-list li p {
   margin-top: 16px;
-  font-size: calc((14 / 16) * 1rem);
+  font-size: 1rem;
   line-height: 24px;
 }
