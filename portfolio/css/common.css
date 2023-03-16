@@ -135,3 +135,14 @@ body {
 svg {
   width: 80%;
 }
+
+.works-list li h2 {
+  color: #ffffff;
+  font-weight: normal;
+  font-size: 2.4rem;
+}
+.works-list li h2::after {
+  content: "→";
+  font-size: 2rem;
+  margin-left: 12px;
+}
