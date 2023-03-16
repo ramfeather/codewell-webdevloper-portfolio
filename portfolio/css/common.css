@@ -140,9 +140,15 @@ svg {
   margin-top: 64px;
 }
 
-.works-list img {
-  width: 46%;
-  /* max-width: 500px; */
+.works-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 560px);
+  justify-content: space-between;
+  column-gap: 64px;
+}
+
+.works-list li img {
+  width: 100%;
 }
 
 .works-list li h2 {
