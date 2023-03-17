@@ -184,3 +184,8 @@ svg {
   background-color: #2f303c;
   padding: 0 160px;
 }
+
+.message-first-half h2 {
+  color: #ffffff;
+  font-weight: normal;
+}
