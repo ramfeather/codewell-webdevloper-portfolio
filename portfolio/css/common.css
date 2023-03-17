@@ -182,7 +182,10 @@ svg {
 .message {
   margin-top: 64px;
   background-color: #31323a;
-  padding: 56px 160px;
+  padding-left: 160px;
+  padding-right: 160px;
+  padding-top: 56px;
+  padding-bottom: 56px;
   display: flex;
 }
 
@@ -194,7 +197,11 @@ svg {
 }
 
 .message-first-half p {
-  margin: 16px 0;
+  margin-top: 32px;
   line-height: 1.6;
   font-size: 1.13rem;
+}
+
+.message-first-half p:nth-child(2) {
+  margin-top: 16px;
 }
