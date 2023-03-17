@@ -90,6 +90,11 @@ body {
 
 .social-icons-area ul li {
   margin-left: 16px;
+  transition-duration: 0.2s;
+}
+
+.social-icons-area li:hover {
+  transform: scale(1.64);
 }
 
 .developer-name {
