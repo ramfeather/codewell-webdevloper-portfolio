@@ -68,6 +68,10 @@ body {
   font-weight: bold;
 }
 
+.link-button:hover {
+  background-color: #c5b949;
+}
+
 .footer {
   background-color: #31323a;
   padding: 0 160px;
