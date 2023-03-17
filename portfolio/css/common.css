@@ -74,7 +74,7 @@ body {
 .footer {
   background-color: #31323a;
   padding: 0 160px;
-  margin-top: 32px;
+  margin-top: 64px;
 }
 
 .footer-inner {
@@ -221,4 +221,9 @@ svg {
 
 .message-emphasis {
   font-weight: bold;
+}
+
+.contact {
+  margin-top: 64px;
+  padding: 0 160px;
 }
