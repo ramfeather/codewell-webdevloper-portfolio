@@ -186,8 +186,10 @@ svg {
   padding-right: 160px;
   padding-top: 56px;
   padding-bottom: 56px;
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 560px);
   justify-content: space-between;
+  column-gap: 64px;
 }
 
 .message-first-half h2 {
@@ -201,9 +203,18 @@ svg {
   margin-top: 32px;
   line-height: 1.6;
   font-size: 1.13rem;
-  width: 88%;
 }
 
 .message-first-half p:nth-child(2) {
   margin-top: 16px;
+}
+
+.message-latter-half p {
+  margin-top: 32px;
+  line-height: 1.6;
+  font-size: 1.13rem;
+}
+
+.message-latter-half p:first-child {
+  margin: 0;
 }
