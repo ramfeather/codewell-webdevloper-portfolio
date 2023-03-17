@@ -153,7 +153,11 @@ svg {
   transition-duration: 0.2s;
 }
 
-.works-list li img:hover {
+.works-list li {
+  transition-duration: 0.2s;
+}
+
+.works-list li:hover {
   transform: scale(1.05);
 }
 
