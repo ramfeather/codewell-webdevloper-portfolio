@@ -218,3 +218,7 @@ svg {
 .message-latter-half p:first-child {
   margin: 0;
 }
+
+.message-emphasis {
+  font-weight: bold;
+}
