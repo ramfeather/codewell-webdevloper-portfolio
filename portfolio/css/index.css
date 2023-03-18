@@ -69,11 +69,13 @@ body {
   height: 2px;
   background: #aaaaaa;
   bottom: -8px;
-  visibility: hidden;
+  transform: scale(0, 1);
+  transform-origin: left top;
+  transition-duration: 0.2s;
 }
 
 .site-menu li a:hover::after {
-  visibility: visible;
+  transform: scale(1, 1);
 }
 
 .link-button {
