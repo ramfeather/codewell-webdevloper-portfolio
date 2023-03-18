@@ -58,6 +58,24 @@ body {
   margin-right: 16px;
 }
 
+.site-menu li a {
+  position: relative;
+}
+.site-menu li a::after {
+  position: absolute;
+  left: 0;
+  content: "";
+  width: 100%;
+  height: 2px;
+  background: #aaaaaa;
+  bottom: -8px;
+  visibility: hidden;
+}
+
+.site-menu li a:hover::after {
+  visibility: visible;
+}
+
 .link-button {
   text-align: center;
   background-color: #ffee55;
