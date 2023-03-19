@@ -123,6 +123,8 @@ body {
 
 .developer-name {
   color: #ffffff;
+  font-size: 1.1rem;
+  font-weight: normal;
 }
 
 .hero-message {
@@ -290,7 +292,7 @@ svg {
     background-image: url(../images/Hamburger\ Menu.svg);
     width: 44px;
     height: 36px;
-    background-size: 64%;
+    background-size: 56%;
     background-repeat: no-repeat;
     background-color: transparent;
     border: none;
