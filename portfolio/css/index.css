@@ -190,7 +190,7 @@ body {
   transform: scale(1.05);
 }
 
-.works-list li h2 {
+.works-list h2 {
   color: #ffffff;
   font-weight: normal;
   font-size: 2.5rem;
@@ -365,7 +365,7 @@ body {
   /* sp */
   @media (max-width: 590px) {
     .navigation {
-      padding: 0 22px;
+      padding: 0 20px;
     }
 
     .toggle-menu-button {
@@ -373,7 +373,7 @@ body {
     }
 
     .hero-message {
-      padding: 0 22px;
+      padding: 0 20px;
       margin-top: 32px;
     }
 
@@ -391,7 +391,7 @@ body {
     }
 
     .sponsors {
-      padding: 0 22px;
+      padding: 0 20px;
     }
 
     .sponsors-icons-area {
@@ -401,12 +401,25 @@ body {
     }
 
     .sponsors-icons-area ul {
-      column-gap: 8px;
+      column-gap: 10px;
       row-gap: 16px;
     }
 
     .sponsors-icon {
       width: 88%;
+    }
+
+    .works {
+      padding: 0 22px;
+    }
+
+    .works-list {
+      grid-template-columns: 1fr;
+    }
+
+    .works-list h2 {
+      font-size: 2rem;
+      margin-top: 16px;
     }
   }
 }
