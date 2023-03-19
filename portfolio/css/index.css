@@ -343,4 +343,12 @@ body {
     padding: 56px 40px;
     row-gap: 72px;
   }
+
+  .contact {
+    padding: 0 40px;
+  }
+
+  .contact p {
+    width: 52%;
+  }
 }
