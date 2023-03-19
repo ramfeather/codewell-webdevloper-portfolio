@@ -315,7 +315,12 @@ svg {
   .hero-message h1 {
     width: 100%;
   }
+
   .hero-message p {
     width: 96%;
+  }
+
+  .sponsors {
+    padding: 0 40px;
   }
 }
