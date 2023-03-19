@@ -284,4 +284,17 @@ svg {
   .navigation-inner > .link-button-area {
     display: none;
   }
+
+  .toggle-menu-button {
+    display: block;
+    background-image: url(../images/Hamburger\ Menu.svg);
+    width: 44px;
+    height: 36px;
+    background-size: 64%;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    border: none;
+    border-radius: 0;
+    outline: none;
+  }
 }
