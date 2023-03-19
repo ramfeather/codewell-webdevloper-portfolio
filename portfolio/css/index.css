@@ -207,12 +207,9 @@ body {
 .message {
   margin-top: 64px;
   background-color: #31323a;
-  padding-left: 160px;
-  padding-right: 160px;
-  padding-top: 56px;
-  padding-bottom: 56px;
+  padding: 56px 160px;
   display: grid;
-  grid-template-columns: repeat(auto-fit, 560px);
+  grid-template-columns: repeat(auto-fit, minmax(530px, 1fr));
   justify-content: space-between;
   column-gap: 64px;
 }
@@ -340,5 +337,10 @@ body {
   .works-list {
     row-gap: 56px;
     justify-content: center;
+  }
+
+  .message {
+    padding: 56px 40px;
+    row-gap: 72px;
   }
 }
