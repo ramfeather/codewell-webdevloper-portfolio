@@ -219,7 +219,7 @@ body {
   column-gap: 64px;
 }
 
-.message-first-half h2 {
+.message h2 {
   color: #ffffff;
   font-size: 2.5rem;
   font-weight: normal;
@@ -425,6 +425,21 @@ body {
       width: 100%;
       font-size: 0.9rem;
       margin-top: 12px;
+    }
+
+    .message {
+      padding: 56px 20px;
+      row-gap: 72px;
+      grid-template-columns: 1fr;
+      column-gap: 0;
+    }
+
+    .message h2 {
+      font-size: 2rem;
+    }
+
+    .message p {
+      font-size: 1rem;
     }
   }
 }
