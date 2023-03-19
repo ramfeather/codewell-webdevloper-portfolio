@@ -351,4 +351,8 @@ body {
   .contact p {
     width: 52%;
   }
+
+  .works-list li:hover {
+    transform: none;
+  }
 }
