@@ -160,6 +160,12 @@ body {
   justify-content: space-between;
 }
 
+.sponsors-icon {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .works {
   margin-top: 64px;
   padding: 0 160px;
@@ -395,11 +401,11 @@ body {
     }
 
     .sponsors-icons-area ul {
-      column-gap: 22px;
+      column-gap: 8px;
       row-gap: 16px;
     }
 
-    .sponsors-icon li {
+    .sponsors-icon {
       width: 88%;
     }
   }
