@@ -126,13 +126,14 @@ body {
 }
 
 .hero-message {
+  width: 100%;
   max-width: 1200px;
   margin-top: 56px;
   padding: 0 160px;
 }
 
 .hero-message h1 {
-  width: 64%;
+  width: 88%;
   line-height: 1.2;
   font-size: 3.8rem;
   color: #ffffff;
@@ -142,7 +143,7 @@ body {
 .hero-message p {
   line-height: 1.6;
   font-size: 1.13rem;
-  width: 58%;
+  width: 80%;
   min-width: 300px;
 }
 
