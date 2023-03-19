@@ -307,4 +307,15 @@ svg {
   .social-icons-area li:hover {
     transform: none;
   }
+
+  .hero-message {
+    padding: 0 40px;
+  }
+
+  .hero-message h1 {
+    width: 100%;
+  }
+  .hero-message p {
+    width: 96%;
+  }
 }
