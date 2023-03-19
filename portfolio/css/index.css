@@ -168,7 +168,7 @@ body {
 
 .works-list {
   display: grid;
-  grid-template-columns: repeat(auto-fit, 560px);
+  grid-template-columns: repeat(auto-fit, minmax(530px, 1fr));
   justify-content: space-between;
   column-gap: 64px;
 }
@@ -335,5 +335,10 @@ body {
 
   .works {
     padding: 0 40px;
+  }
+
+  .works-list {
+    row-gap: 56px;
+    justify-content: center;
   }
 }
