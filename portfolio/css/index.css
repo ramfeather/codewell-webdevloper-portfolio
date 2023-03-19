@@ -160,11 +160,6 @@ body {
   justify-content: space-between;
 }
 
-.sponsors-icons-area ul li img,
-svg {
-  width: 100%;
-}
-
 .works {
   margin-top: 64px;
   padding: 0 160px;
