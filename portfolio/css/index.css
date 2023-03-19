@@ -272,3 +272,11 @@ svg {
 .contact .link-button-area {
   margin-top: 16px;
 }
+
+/* tablet */
+@media (max-width: 1200px) {
+  .navigation {
+    margin-top: 8px;
+    padding: 0 40px;
+  }
+}
