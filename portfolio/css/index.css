@@ -288,6 +288,7 @@ body {
     background-size: 56%;
     background-repeat: no-repeat;
     background-color: transparent;
+    background-position: center;
     border: none;
     border-radius: 0;
     outline: none;
@@ -354,5 +355,16 @@ body {
 
   .works-list li:hover {
     transform: none;
+  }
+
+  /* sp */
+  @media (max-width: 590px) {
+    .navigation {
+      padding: 0 22px;
+    }
+
+    .toggle-menu-button {
+      background-position: right;
+    }
   }
 }
