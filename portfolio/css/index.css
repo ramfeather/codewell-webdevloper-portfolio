@@ -264,7 +264,6 @@ body {
 .contact p {
   margin-top: 16px;
   width: 47%;
-  min-width: 300px;
   line-height: 1.6;
   font-size: 1.13rem;
 }
@@ -440,6 +439,21 @@ body {
 
     .message p {
       font-size: 1rem;
+    }
+
+    .contact {
+      padding: 0 20px;
+    }
+
+    .contact h2 {
+      font-size: 2rem;
+      line-height: 1.2;
+    }
+
+    .contact p {
+      font-size: 0.9rem;
+      width: 100%;
+      margin-top: 8px;
     }
   }
 }
